@@ -1,0 +1,11 @@
+#
+# files to ignore for suckless st
+#
+
+# binary and object output files
+st
+*.o
+
+# config file (edit the config.def.h and config.h is created on make)
+config.h
+
