@@ -7,8 +7,8 @@ VERSION = 0.8.1
 PREFIX = /usr/local
 MANPREFIX = $(PREFIX)/share/man
 
-X11INC = /usr/X11R6/include
-X11LIB = /usr/X11R6/lib
+X11INC = /usr/include/X11
+X11LIB = /usr/lib/X11
 
 # includes and libs
 INCS = -I$(X11INC) \
@@ -30,4 +30,4 @@ STLDFLAGS = $(LIBS) $(LDFLAGS)
 #       `pkg-config --libs freetype2`
 
 # compiler and linker
-# CC = c99
+CC = tcc
