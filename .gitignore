@@ -4,3 +4,6 @@ config.h
 # binary and object files
 st
 *.o
+
+# vim swapfiles
+*.sw[op]
