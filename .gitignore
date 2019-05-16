@@ -1,0 +1,6 @@
+# edit config.def.h (config.h is created by make)
+config.h
+
+# binary and object files
+st
+*.o
